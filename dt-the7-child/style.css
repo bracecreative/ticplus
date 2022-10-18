@@ -1,0 +1,115 @@
+/*
+Theme Name: the7dtchild
+Author: Dream-Theme
+Author URI: http://dream-theme.com/
+Description: The7 is perfectly scalable, performance and SEO optimized, responsive, retina ready multipurpose WordPress theme. It will fit every site – big or small. From huge corporate portals to studio or personal sites – The7 will become a great foundation for your next project!
+Version: 1.0.0
+License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended
+Template: dt-the7
+*/
+
+/* New Support Page */
+
+body.page-id-18133 #main {padding: 0 !important;}
+body.page-id-18133 #main > .wf-wrap {padding: 0 !important; width: 100% !important;}
+body.page-id-18133 #main h1 {line-height: 1.5;}
+
+.support-events01 h3 {padding: 1rem 0 1rem 0;}
+.support-events01 figure.wp-block-table {padding-bottom: 1rem; }
+.support-events01 table td {font-size: 0.8rem; color: #659a20; padding: 0.5rem; border-color: #FBE0BC;}
+.support-events01 table td:first-child {width: 2rem;}
+.support-events01 table td:nth-child(2) {width: 2rem;}
+.support-events01 table td a {color: #659a20; text-decoration: underline;}
+.support-events01 table td a:hover {text-decoration: none;}
+
+.support-events01 tbody tr:nth-child(2n+1) {background-color: #FCF7F1;}
+
+/* Small devices */
+@media (max-width: 768px) {
+	
+	.support-events01 {display: none;}
+	.support-blog01 {grid-column-start: 1 !important; grid-column-end: span 12 !important;}
+	
+}
+
+.partnerships01 figure.link-image01 {margin-bottom: 0;}
+.partnerships01 figure.link-title01 {height: 2rem; display: flex; align-content: center; justify-content: center; background-color: #659a20; padding: 0.4rem;}
+.partnerships01 .link-title01 img {width: 188px !important;}
+
+body.page-id-18133 .wpv-block-loop-item {padding-bottom: 1rem; margin-bottom: 2rem;}
+body.page-id-18133 .wpv-block-loop-item p {font-size: 0.9rem; padding: 0 1rem 0 1rem;}
+body.page-id-18133 .wpv-block-loop-item h4 {padding: 0 1rem 0 1rem;}
+body.page-id-18133 .wpv-block-loop-item h4 a {font-size: 1.2rem; color: white; text-decoration: underline;}
+body.page-id-18133 .wpv-block-loop-item h4 a:hover {text-decoration: none;}
+
+
+/* New Training Page */
+
+body.page-id-18561 #main {padding: 0 !important;}
+body.page-id-18561 #main > .wf-wrap {padding: 0 !important; width: 100% !important;}
+body.page-id-18561 #main h1 {line-height: 1.5;}
+
+body.page-id-18561 .wpv-block-loop-item {padding-bottom: 1rem; margin-bottom: 2rem;}
+body.page-id-18561 .wpv-block-loop-item p {font-size: 0.9rem; padding: 0 1rem 0 1rem;}
+body.page-id-18561 .wpv-block-loop-item h4 {padding: 0 1rem 0 1rem;}
+body.page-id-18561 .wpv-block-loop-item h4 a {font-size: 1.2rem; color: white; text-decoration: underline;}
+body.page-id-18561 .wpv-block-loop-item h4 a:hover {text-decoration: none;}
+
+.training-events01 h3 {padding: 1rem 0 1rem 0;}
+.training-events01 figure.wp-block-table {padding-bottom: 1rem; }
+.training-events01 table td {vertical-align:top; font-size: 0.8rem; color: #659a20; padding: 0.5rem; border-color: #FBE0BC;}
+.training-events01 table td:first-child {width: 2rem;}
+.training-events01 table td:nth-child(2) {width: 2rem;}
+.training-events01 table td a {color: #659a20; text-decoration: underline;}
+.training-events01 table td a:hover {text-decoration: none;}
+
+.training-events01 table td ul {list-style: none; margin:0;}
+.training-events01 li.course-level01 {color: #B5CB8F;}
+
+.training-events01 tbody tr:nth-child(2n+1) {background-color: #FCF7F1;}
+
+/* New Interact Page */
+
+body.page-id-18777 .alignfull {margin-top: 0 !important;}
+body.page-id-18777 #main {padding: 0 !important;}
+body.page-id-18777 #main > .wf-wrap {padding: 0 !important; width: 100% !important;}
+body.page-id-18777 #main h1 {line-height: 1.5;}
+body.page-id-18777 #main a {color: black;}
+body.page-id-18777 #main a:hover {color: black;}
+
+body.page-id-18777 .spacing-block01 {padding: 2rem;}
+body.page-id-18777 .border-block01 {padding: 2rem; border: 2px solid #8C52FF;}
+body.page-id-18777 .border-block02 {padding: 2rem; border: 2px solid #8CD7F6;}
+body.page-id-18777 .border-block03 {padding: 2rem; border: 2px solid #D2B6D5;}
+
+body.page-id-19602 .alignfull {margin-top: 0 !important;}
+body.page-id-19602 #main {padding: 0 !important;}
+body.page-id-19602 #main > .wf-wrap {padding: 0 !important; width: 100% !important;}
+body.page-id-19602 #main h1 {line-height: 1.5;}
+body.page-id-19602 #main a {color: black;}
+body.page-id-19602 #main a:hover {color: black;}
+
+body.page-id-19602 .spacing-block01 {padding: 2rem;}
+body.page-id-19602 .border-block01 {padding: 2rem; border: 2px solid #8C52FF;}
+body.page-id-19602 .border-block02 {padding: 2rem; border: 2px solid #8CD7F6;}
+body.page-id-19602 .border-block03 {padding: 2rem; border: 2px solid #D2B6D5;}
+
+.interact-events01 figure.wp-block-table {padding-bottom: 1rem; }
+.interact-events01 table td {font-size: 0.8rem; color: #659a20; padding: 0.5rem; border-color: #FBE0BC;}
+.interact-events01 table td:first-child {width: 2rem;}
+.interact-events01 table td:nth-child(2) {width: 2rem;}
+.interact-events01 table td a {color: #659a20; text-decoration: underline;}
+.interact-events01 table td a:hover {text-decoration: none;}
+
+.interact-events01 tbody tr:nth-child(2n+1) {background-color: #FCF7F1;}
+
+.interact-events02 figure.wp-block-table {padding-bottom: 1rem; }
+.interact-events02 table td {font-size: 0.8rem; color: black; padding: 0.5rem; border-color: white;}
+.interact-events02 table td:first-child {width: 2rem;}
+.interact-events02 table td:nth-child(2) {width: 2rem;}
+.interact-events02 table td a {color: white; text-decoration: underline;}
+.interact-events02 table td a:hover {text-decoration: none;}
+
+.interact-events02 tbody tr:nth-child(3n+1) {background-color: #D2B6D5;}
+.interact-events02 tbody tr:nth-child(3n+2) {background-color: #8CD7F6;}
+.interact-events02 tbody tr:nth-child(3n+3) {background-color: #B281B8;}
